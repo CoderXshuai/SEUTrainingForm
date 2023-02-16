@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://124.70.128.29:3306/form
+    username: form
+    password: root
+# 设置日志级别为INFO
+logging:
+  level:
+    root: INFO
